@@ -104,6 +104,37 @@
 
     <hr>
 
-    
+    <h2>🛒 Quick Order Reservation</h2>
+
+    <p>Fill out this form to reserve your books before coming to the store.</p>
+
+    <fieldset>
+        <legend>Order Details</legend>
+        <label for="stu_ad_no">Student Admission No:</label><br>
+        <input type="text" id="stu_ad_no" name="stu_ad_no" placeholder="e.g.,ST-1234">
+
+        <br><br>
+
+        <label for="reserve">Select Book to Reserve:</label><br>
+        <select id="reserve" name="reserve">
+            <option value="The Secret Island(Rs. 850.00)">The Secret Island(Rs. 850.00)</option>
+        </select>
+
+        <br><br>
+        <lable for="date">Preferred Collection Date:</lable><br>
+        <input type="date" id="date" name="date">
+
+        <br><br>
+
+        <label for="notes">Special Notes / Instructions:</label><br>
+        <textarea id="notes" name="notes" rows="3" cols="50"></textarea>
+
+        <br><br>
+
+        <button value="submit">Submit Reservation</button>
+        <button value="submit">Reset Form</button>
+    </fieldset>
+
+    <p>&copy 2026 Apex School Bookshop Management System.</p>
 </body>
 </html>
